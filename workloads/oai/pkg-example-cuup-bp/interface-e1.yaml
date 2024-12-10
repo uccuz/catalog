@@ -11,4 +11,4 @@ spec:
   networkInstance:
     name: vpc-cu-e1
   cniType: macvlan
-  attachmentType: vlan
+  attachmentType: macvlan

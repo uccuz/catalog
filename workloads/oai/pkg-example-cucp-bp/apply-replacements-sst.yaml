@@ -8,7 +8,7 @@ replacements:
 - source:
     kind: ConfigMap
     name: slice-info
-    fieldPath: data.name
+    fieldPath: data.sst
   targets:
   - select:
       kind: NFDeployment

@@ -25,6 +25,13 @@ replacements:
       delimiter: '-'
       index: 2
   - select:
+      kind: Dependency
+    fieldPaths:
+    - metadata.annotations.[specializer.nephio.org/owner]
+    options:
+      delimiter: '-'
+      index: 2
+  - select:
       kind: NFConfig
     fieldPaths:
     - spec.configRefs.1.spec.PLMNInfo.0.nssai.0.sd

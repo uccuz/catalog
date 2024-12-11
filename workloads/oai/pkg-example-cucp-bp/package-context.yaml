@@ -6,3 +6,6 @@ metadata:
     config.kubernetes.io/local-config: "true"
 data:
   name: example
+  # Slice Info
+  sst: 1
+  sd: "ffffff"

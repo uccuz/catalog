@@ -7,5 +7,5 @@ metadata:
 data:
   name: example
   # Slice Info
-  sst: 1
+  sst: "1"
   sd: "ffffff"

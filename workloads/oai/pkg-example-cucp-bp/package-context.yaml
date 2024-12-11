@@ -6,5 +6,3 @@ metadata:
     config.kubernetes.io/local-config: "true"
 data:
   name: example
-  #sst: "1"
-  #sd: "ffffff"

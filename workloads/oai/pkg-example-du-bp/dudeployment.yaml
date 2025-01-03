@@ -1,7 +1,7 @@
 apiVersion: workload.nephio.org/v1alpha1
 kind: NFDeployment
 metadata: 
-  name: du-example
+  name: du-1-ffffff
   namespace: example
 spec:
   provider: du.openairinterface.org

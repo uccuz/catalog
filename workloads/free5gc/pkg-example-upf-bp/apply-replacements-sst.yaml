@@ -11,6 +11,13 @@ replacements:
     fieldPath: data.sst
   targets:
   - select:
+      kind: NFDeployment
+    fieldPaths:
+    - metadata.name
+    options:
+      delimiter: '-'
+      index: 1
+  - select:
       kind: Interface
     fieldPaths:
     - metadata.annotations.[specializer.nephio.org/owner]

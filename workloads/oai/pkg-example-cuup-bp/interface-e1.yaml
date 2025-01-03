@@ -5,7 +5,7 @@ metadata:
   annotations:
     nephio.org/network-name: e1
     config.kubernetes.io/local-config: "true"
-    specializer.nephio.org/owner: workload.nephio.org/v1alpha1.NFDeployment.cuup-example
+    specializer.nephio.org/owner: workload.nephio.org/v1alpha1.NFDeployment.cuup-1-ffffff
     specializer.nephio.org/namespace: example
 spec:
   networkInstance:

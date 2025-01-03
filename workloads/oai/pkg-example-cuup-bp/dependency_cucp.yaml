@@ -4,10 +4,10 @@ metadata:
   name: cucp
   annotations:
     config.kubernetes.io/local-config: "true"
-    specializer.nephio.org/owner: workload.nephio.org/v1alpha1.NFDeployment.cuup-example
+    specializer.nephio.org/owner: workload.nephio.org/v1alpha1.NFDeployment.cuup-1-ffffff
     specializer.nephio.org/namespace: example
 spec:
-  packageName: oai-ran-cucp
+  packageName: cucp-oai-ran
   injectors:
   - apiVersion: workload.nephio.org/v1alpha1
     kind: NFDeployment

@@ -1,7 +1,7 @@
 apiVersion: workload.nephio.org/v1alpha1
 kind: NFDeployment
 metadata: 
-  name: cuup-example
+  name: cuup-1-ffffff
   namespace: example
 spec:
   provider: cuup.openairinterface.org

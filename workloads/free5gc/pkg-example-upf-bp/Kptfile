@@ -9,9 +9,9 @@ info:
 pipeline:
   mutators:
     - image: gcr.io/kpt-fn/apply-replacements:v0.1.1
-      configPath: apply-replacements-owner.yaml
+      configPath: apply-replacements-sst.yaml
     - image: gcr.io/kpt-fn/apply-replacements:v0.1.1
-      configPath: apply-replacements-namespace.yaml
+      configPath: apply-replacements-sd.yaml
     - image: gcr.io/kpt-fn/set-namespace:v0.4.1
       configPath: package-context.yaml
     - image: docker.io/nephio/nfdeploy-fn:latest

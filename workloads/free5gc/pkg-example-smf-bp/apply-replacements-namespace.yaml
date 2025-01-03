@@ -26,3 +26,8 @@ replacements:
       kind: Dependency
     fieldPaths:
     - metadata.annotations.[specializer.nephio.org/namespace]
+  - select:
+      kind: ConfigMap
+      name: slice-info
+    fieldPaths:
+    - metadata.namespace

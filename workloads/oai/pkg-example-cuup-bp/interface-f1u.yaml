@@ -11,4 +11,4 @@ spec:
   networkInstance:
     name: vpc-cudu-f1
   cniType: macvlan
-  attachmentType: macvlan
+  attachmentType: vlan

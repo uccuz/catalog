@@ -6,12 +6,11 @@ metadata:
     config.kubernetes.io/local-config: "true"
 info:
   description: example cucp blueprint package
+
 pipeline:
   mutators:
   - image: gcr.io/kpt-fn/apply-replacements:v0.1.1
-    configPath: apply-replacements-sst.yaml
-  - image: gcr.io/kpt-fn/apply-replacements:v0.1.1
-    configPath: apply-replacements-sd.yaml
+    configPath: apply-replacements-owner.yaml
   - image: gcr.io/kpt-fn/apply-replacements:v0.1.1
     configPath: apply-replacements-namespace.yaml
   - image: gcr.io/kpt-fn/set-namespace:v0.4.1

@@ -5,10 +5,10 @@ metadata:
   annotations:
     nephio.org/network-name: e1
     config.kubernetes.io/local-config: "true"
-    specializer.nephio.org/owner: workload.nephio.org/v1alpha1.NFDeployment.cucp-0-ffffff
+    specializer.nephio.org/owner: workload.nephio.org/v1alpha1.NFDeployment.cucp-example
     specializer.nephio.org/namespace: example
 spec:
   networkInstance:
     name: vpc-cu-e1
   cniType: macvlan
-  attachmentType: macvlan
+  attachmentType: vlan

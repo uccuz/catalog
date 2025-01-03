@@ -5,5 +5,5 @@ metadata:
   annotations:
     config.kubernetes.io/local-config: "true"
 data:
-  sst: "1"
-  sd: "ffffff"
+  sst: "1" # kpt-set: ${sst}
+  sd: "ffffff" # kpt-set: ${sd}

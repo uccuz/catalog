@@ -31,7 +31,3 @@ replacements:
     options:
       delimiter: '-'
       index: 2
-  - select:
-      kind: NFConfig
-    fieldPaths:
-    - spec.configRefs.1.spec.PLMNInfo.0.nssai.0.sd

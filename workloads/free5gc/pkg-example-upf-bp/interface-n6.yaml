@@ -10,4 +10,4 @@ spec:
   networkInstance:
     name: n6
   cniType: macvlan
-  attachmentType: vlan
+  attachmentType: none

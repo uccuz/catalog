@@ -11,4 +11,4 @@ spec:
   networkInstance:
     name: n2
   cniType: macvlan
-  attachmentType: vlan
+  attachmentType: none

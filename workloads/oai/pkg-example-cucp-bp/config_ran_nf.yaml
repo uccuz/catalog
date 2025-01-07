@@ -32,25 +32,25 @@ spec:
           mnc: "93"
         tac: 1
         nssai:
-        - sd: 010100
+        - sd: "010100"
           sst: 1
-        - sd: 010101
+        - sd: "010101"
           sst: 1
-        - sd: 010102
+        - sd: "010102"
           sst: 1
-        - sd: 010103
+        - sd: "010103"
           sst: 1
-        - sd: 010104
+        - sd: "010104"
           sst: 1
-        - sd: 010205
+        - sd: "010205"
           sst: 2
-        - sd: 010206
+        - sd: "010206"
           sst: 2
-        - sd: 010207
+        - sd: "010207"
           sst: 2
-        - sd: 010208
+        - sd: "010208"
           sst: 2
-        - sd: 010209
+        - sd: "010209"
           sst: 2
   - apiVersion: workload.nephio.org/v1alpha1
     kind: OAIConfig

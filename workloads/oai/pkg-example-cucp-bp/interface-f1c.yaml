@@ -11,4 +11,4 @@ spec:
   networkInstance:
     name: f1c
   cniType: macvlan
-  attachmentType: vlan
+  attachmentType: none

@@ -4,11 +4,11 @@ metadata:
   name: internet
   annotations:
     config.kubernetes.io/local-config: "true"
-    specializer.nephio.org/owner: workload.nephio.org/v1alpha1.NFDeployment.upf-1-ffffff
+    specializer.nephio.org/owner: workload.nephio.org/v1alpha1.NFDeployment.upf-example
     specializer.nephio.org/namespace: example
 spec:
   networkInstance:
     name: vpc-internet
   pools:
-  - name: pool1
-    prefixLength: 24
+    - name: pool1
+      prefixLength: 24

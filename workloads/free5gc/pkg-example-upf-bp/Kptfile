@@ -16,6 +16,8 @@ pipeline:
       configPath: package-context.yaml
     - image: docker.io/justin89721/nfdeploy-fn-no-vlan:latest
     - image: docker.io/nephio/interface-fn:latest
+    - image: docker.io/nephio/dnn-fn:latest
     - image: docker.io/nephio/nad-fn:latest
+    - image: docker.io/nephio/dnn-fn:latest
     - image: docker.io/nephio/interface-fn:latest
     - image: docker.io/justin89721/nfdeploy-fn-no-vlan:latest

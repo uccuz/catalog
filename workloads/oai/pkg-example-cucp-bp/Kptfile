@@ -17,5 +17,6 @@ pipeline:
     configPath: package-context.yaml
   - image: docker.io/nephio/nfdeploy-fn:latest
   - image: docker.io/nephio/interface-fn:latest
+  - image: docker.io/nephio/nad-fn:latest
   - image: docker.io/nephio/interface-fn:latest
   - image: docker.io/nephio/nfdeploy-fn:latest

@@ -1,7 +1,7 @@
 apiVersion: req.nephio.org/v1alpha1
 kind: Interface
 metadata:
-  name: f1
+  name: f1c
   annotations:
     nephio.org/network-name: f1c
     config.kubernetes.io/local-config: "true"
@@ -11,4 +11,4 @@ spec:
   networkInstance:
     name: f1c
   cniType: macvlan
-  attachmentType: vlan
+  attachmentType: none

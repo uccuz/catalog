@@ -28,7 +28,6 @@ replacements:
       kind: Dependency
     fieldPaths:
     - metadata.annotations.[specializer.nephio.org/owner]
-    - spec.packageName
     options:
       delimiter: '-'
       index: 1

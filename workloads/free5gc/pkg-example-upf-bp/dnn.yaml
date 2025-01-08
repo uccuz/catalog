@@ -8,7 +8,7 @@ metadata:
     specializer.nephio.org/namespace: example
 spec:
   networkInstance:
-    name: vpc-internet
+    name: n6
   pools:
     - name: pool1
       prefixLength: 24

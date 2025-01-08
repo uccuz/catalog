@@ -10,4 +10,4 @@ spec:
   networkInstance:
     name: n4
   cniType: macvlan
-  attachmentType: vlan
+  attachmentType: none

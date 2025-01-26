@@ -43,15 +43,15 @@ spec:
         - sd: "010104"
           sst: 1
         - sd: "010205"
-          sst: 2
+          sst: 1
         - sd: "010206"
-          sst: 2
+          sst: 1
         - sd: "010207"
-          sst: 2
+          sst: 1
         - sd: "010208"
-          sst: 2
+          sst: 1
         - sd: "010209"
-          sst: 2
+          sst: 1
   - apiVersion: workload.nephio.org/v1alpha1
     kind: OAIConfig
     metadata:
